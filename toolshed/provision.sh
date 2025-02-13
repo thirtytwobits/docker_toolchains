@@ -33,13 +33,13 @@ apt-get -y install lcov
 apt-get -y install valgrind
 apt-get -y install graphviz
 apt-get -y install curl
-apt-get -y install qemu
 apt-get -y install ninja-build
 apt-get -y install can-utils
 apt-get -y install lsb-release
 apt-get -y install wget
 apt-get -y install gnupg
 apt-get -y install vim
+apt-get -y install g++-7
 apt-get -y install g++-10
 apt-get -y install g++-11
 apt-get -y install g++-12

@@ -33,7 +33,9 @@ cat kitware-archive-latest.asc | gpg --dearmor - | tee /etc/apt/trusted.gpg.d/ki
 
 apt-get -y install software-properties-common
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6AF7F09730B3F0A4
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 16FAAD7AF99A65E2
 apt-add-repository 'deb https://apt.kitware.com/ubuntu/ jammy main'
+apt-add-repository 'deb https://ports.ubuntu.com/ubuntu-ports focal main universe'
 add-apt-repository -y ppa:deadsnakes/ppa
 
 # setup locales in the container so Python can default to utf-8.

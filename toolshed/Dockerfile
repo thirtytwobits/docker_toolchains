@@ -36,7 +36,7 @@ RUN ./provision.sh
 RUN ./provision-${TARGETARCH}.sh
 RUN ./post-provision.sh
 
-# INSTALL THE PATH FOR INTERATIVE SESSIONS
+# INSTALL THE PATH FOR INTERACTIVE SESSIONS
 RUN echo "export PATH=$PATH" >> ~/.bashrc
 
 # LEAVE THE WORKDIR AS /repo
